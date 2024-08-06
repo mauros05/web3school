@@ -7,6 +7,11 @@
         $y = $x + $y;
     }
 
-    myFunct();
+    function myTest(){
+        $GLOBALS["y"] = $GLOBALS["x"] + $GLOBALS["y"];
+    }
+
+    // myFunct();
+    myTest();
     echo $y;
 ?>
