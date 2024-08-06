@@ -23,6 +23,7 @@
 
     print_r($my_array);
     echo "<br>";
+
     // Scape Characters
-    // echo "Hello, this is a "/Scape Variable"/";
+    echo "Hello, this is a \"Scape Variable\" in a PHP file";
 ?>
